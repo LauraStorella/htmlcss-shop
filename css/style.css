@@ -1,0 +1,76 @@
+/* Inizio regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/sfondo.jpg");
+  background-size: cover;
+}
+/* Fine regole generali */
+
+/* Inizio header */
+.header {
+  text-align: center;
+
+}
+
+.shop{
+  color: teal;
+  font-size: 80px;
+  font-family: fantasy;
+}
+
+.disclaimer {
+  color: white;
+}
+/* Fien header */
+
+/* Inizio regole main-wrapper */
+#main-wrapper {
+  background-color: white;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 1px solid black;
+  text-align: center;
+}
+/* Fine regole main-wrapper */
+
+/* Inizio regole riga prodotti */
+.product-row {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 372;
+  margin-top: 3px;
+}
+
+.discount {
+  background-color: green;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 40px;
+  height: 25px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.discount.smartphone {
+  background-color: red;
+}
+
+.heart {
+  color: red;
+  font-size: 30px;
+  display: none;
+}
+
+.product-row:hover .heart{
+  display: block;
+}
+/* Fine regole riga prodotti */
