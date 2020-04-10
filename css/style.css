@@ -68,6 +68,9 @@ body {
   color: red;
   font-size: 30px;
   display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .product-row:hover .heart{
